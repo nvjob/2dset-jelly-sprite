@@ -66,11 +66,11 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _JellyX: 0.1
+    - _JellyX: 0.3
     - _JellyXB: 0
     - _JellyXBs: 0
-    - _JellyXs: 0.7
-    - _JellyY: 0.2
+    - _JellyXs: 0.5
+    - _JellyY: 0.5
     - _JellyYB: 0
     - _JellyYBs: 0
     - _JellyYs: 0.5
