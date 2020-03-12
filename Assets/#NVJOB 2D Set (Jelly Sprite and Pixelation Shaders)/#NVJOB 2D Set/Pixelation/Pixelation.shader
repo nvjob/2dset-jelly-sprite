@@ -89,15 +89,15 @@ return OUT;
 
 float4 frag(v2f IN) : COLOR {
 float2 splitting = IN.texcoord.xy / IN.texcoord.w;
-half2 cellXY = half2(_CellX, _CellY) * 0.005;
+half2 cellXY = half2(_CellX * 0.005, _CellY * 0.005);
 splitting = round(splitting / cellXY);
 splitting *= cellXY;
-float4 tex = tex2D(_PixelationGrab, splitting) * IN.color;
+float4 tex = tex2D(_PixelationGrab, splitting);
 fixed Lum = dot(tex, float3(0.2126, 0.7152, 0.0722));
 fixed3 color = lerp(Lum.xxx, tex, _Saturation);
 color = color * _Brightness;
 color = (color - 0.5) * _Contrast + 0.5;
-return float4(color, 1);
+return float4(color, 1) * IN.color;
 }
 
 //----------------------------------------------

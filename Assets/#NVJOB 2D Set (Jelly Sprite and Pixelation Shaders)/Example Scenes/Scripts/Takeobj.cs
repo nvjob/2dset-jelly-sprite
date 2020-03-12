@@ -1,9 +1,4 @@
-﻿// MIT license
-// (c) 2016 #NVJOB Nicholas Veselov - https://nvjob.github.io
-// #NVJOB Simple Pool v1.2 - https://nvjob.github.io/unity/nvjob-simple-pool.html
-
-
-using UnityEngine;
+﻿using UnityEngine;
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -32,7 +27,7 @@ public class Takeobj : MonoBehaviour
     {
         //--------------
 
-        SimplePool.Takeobj(gameObject);
+        SimplePool.Takeobj(gameObject); // #NVJOB Simple Pool v1.2 - https://nvjob.github.io/unity/nvjob-simple-pool
 
         //--------------
     }

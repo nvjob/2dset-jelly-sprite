@@ -4,5 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/#NVJOB 2D Set (Jelly Sprite and Pixelation Shaders)/Example Scenes/Scenes/Example
+      Jelly Sprite.unity
+    guid: 0f2f1e251a30e9842a700c9e03233997
+  - enabled: 1
+    path: Assets/#NVJOB 2D Set (Jelly Sprite and Pixelation Shaders)/Example Scenes/Scenes/Example
+      Pixelation.unity
+    guid: 81a1e9e7ef2e0aa419b5099a699d5083
   m_configObjects: {}

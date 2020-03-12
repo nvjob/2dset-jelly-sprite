@@ -25,7 +25,7 @@ public class SimplePool : MonoBehaviour
 
     [Header("Information")] // These variables are only information.
     public string HelpURL = "nvjob.github.io/unity/nvjob-simple-pool";
-    public string ReportAProblem = "nvjob.github.io/support";
+    public string ReportAProblem = "nvjob.github.io/reportaproblem";
     public string Patrons = "nvjob.github.io/patrons";
 
     //--------------
