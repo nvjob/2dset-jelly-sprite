@@ -1,8 +1,7 @@
 # #NVJOB 2D Set (Jelly Sprite and Pixelation Shaders) 1.2
 #### Full instructions - [nvjob.github.io/unity/nvjob-2dset-jelly-sprite](https://nvjob.github.io/unity/nvjob-2dset-jelly-sprite)
 
-![GitHub Logo](https://nvjob.github.io/repo/unity%20assets/2d-set-jelly-sprite/pic/5.jpg)<br>
-![GitHub Logo](https://nvjob.github.io/repo/unity%20assets/2d-set-jelly-sprite/pic/4.jpg)
+![GitHub Logo](https://nvjob.github.io/repo/unity%20assets/2d-set-jelly-sprite/pic/0.jpg)
 
 This is a set of shaders for 2D games and UI.<br>
 The kit includes shaders: Jelly Sprite, Pixelation, Offset Wall, Sprite (with additional settings), Unlit Cutout.
